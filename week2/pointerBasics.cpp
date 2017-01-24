@@ -15,7 +15,7 @@ int main()
     
     //Part 3
     myInt = 10;
-    cout << "The location of myInt is: " << &myInt << ", and the location of myPointer is: " << myPointer << "\n";
-    cout << "The value of myInt is: "<< myInt << ", and the value of myPointer is: " << *myPointer << "\n";
+    cout << "The location of myInt is: " << &myInt << ", and the value of myPointer is: " << myPointer << "\n";
+    cout << "The value of myInt is: "<< myInt << ", and the value pointed to by myPointer is: " << *myPointer << "\n\n";
     return 0;
 }
